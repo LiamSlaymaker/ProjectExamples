@@ -1,0 +1,45 @@
+﻿  Camera.cpp
+  d3dUtil.cpp
+  DXApp.cpp
+  FlatPlane.cpp
+  GameTimer.cpp
+  GraphicObject_Base.cpp
+  GraphicObject_Color.cpp
+  GraphicObject_ColorLight.cpp
+  GraphicObject_Texture.cpp
+  GraphicObject_TextureLight.cpp
+  MeshSeparator.cpp
+  Model.cpp
+  ModelTools.cpp
+  ShaderBase.cpp
+  ShaderColor.cpp
+  ShaderColorLight.cpp
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\ModelTools.cpp(147,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\DXApp.cpp(202,81): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\DXApp.cpp(202,71): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  ShaderTexture.cpp
+  ShaderTextureLight.cpp
+  Skybox.cpp
+  Terrain.cpp
+  TerrainModel.cpp
+  Texture.cpp
+  MainWindow.cpp
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(24,15): warning C4244: 'initializing': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(25,46): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(27,13): warning C4244: 'initializing': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(29,50): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(36,10): warning C4244: 'initializing': conversion from 'size_t' to 'float', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(46,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(47,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(52,20): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(59,20): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(64,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(109,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(110,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(118,7): warning C4552: '/': result of expression not used
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(120,57): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(120,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\TerrainModel.cpp(19,10): warning C4189: 'h_val': local variable is initialized but not referenced
+C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\src\ShaderTexture.cpp(76,59): warning C4100: 'tex': unreferenced formal parameter
+  DXApplication.vcxproj -> C:\Users\liams\OneDrive\Desktop\berthiaume2021winter_gam370\student\lslaymak\FinalProject\Debug\DX Application.exe

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{67a41f28-9759-47d6-ab42-66e90499f213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{f458ef6b-3879-45a1-b690-bb3675eea367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{2fc45b5c-b974-4692-944d-b2a65a99b337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{58c0b827-c48c-445e-a2de-6e80d15288b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{4c379938-5e53-4a18-9e64-c4c326f64ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\DXTex">
+      <UniqueIdentifier>{063abded-1e9f-4773-8d38-ba7586801519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\DXTex\include">
+      <UniqueIdentifier>{53b8b990-b8c5-4532-ab03-e7130aa67d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\DXTex\lib">
+      <UniqueIdentifier>{7cb16f48-c669-45bb-9628-6acd1c0caf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{2456a3dc-556e-4c00-a0fb-ab1ff1e50f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{1c2fab60-77e2-45d3-be75-f90deb7fb424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{b651abad-1452-4d78-91fb-153a763f0d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Main DX App">
+      <UniqueIdentifier>{2b220d25-da3f-4235-b289-0c75799ee22c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{7b94717d-e347-4c1b-b644-f822ad171613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tools">
+      <UniqueIdentifier>{c6b91704-0352-4999-90a6-1edb274c4c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Model">
+      <UniqueIdentifier>{0377c4e8-3072-445b-ab53-b04373828c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shader">
+      <UniqueIdentifier>{cd4801cc-cbb0-42e9-b86e-b521fcb97831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Texture">
+      <UniqueIdentifier>{1a66ea2c-b7e6-4981-b52e-52a455d934f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GraphicObject">
+      <UniqueIdentifier>{63ff5b21-e702-4450-bc34-3c3a50f96be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diagrams">
+      <UniqueIdentifier>{345317b0-afe4-41d2-89da-25870bbdb4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MemTracker">
+      <UniqueIdentifier>{7a901a99-db1c-4411-8501-9d4e315f736e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="..\src\d3dUtil.cpp">
+      <Filter>Source\Main DX App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DXApp.cpp">
+      <Filter>Source\Main DX App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameTimer.cpp">
+      <Filter>Source\Main DX App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Camera.cpp">
+      <Filter>Source\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Model.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ModelTools.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShaderBase.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShaderColor.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Texture.cpp">
+      <Filter>Source\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FlatPlane.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TerrainModel.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShaderColorLight.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GraphicObject_Base.cpp">
+      <Filter>Source\GraphicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GraphicObject_Color.cpp">
+      <Filter>Source\GraphicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GraphicObject_Texture.cpp">
+      <Filter>Source\GraphicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShaderTexture.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GraphicObject_ColorLight.cpp">
+      <Filter>Source\GraphicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ShaderTextureLight.cpp">
+      <Filter>Source\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GraphicObject_TextureLight.cpp">
+      <Filter>Source\GraphicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MeshSeparator.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skybox.cpp">
+      <Filter>Source\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Terrain.cpp">
+      <Filter>Source\GraphicObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\DXTex\include\DirectXTex.h">
+      <Filter>_Libs\DXTex\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\d3dUtil.h">
+      <Filter>Source\Main DX App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DXApp.h">
+      <Filter>Source\Main DX App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameTimer.h">
+      <Filter>Source\Main DX App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Camera.h">
+      <Filter>Source\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Model.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ModelTools.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShaderBase.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShaderColor.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Texture.h">
+      <Filter>Source\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FlatPlane.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TerrainModel.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShaderColorLight.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GraphicObject_Base.h">
+      <Filter>Source\GraphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GraphicObject_Color.h">
+      <Filter>Source\GraphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MemTracker\Framework.h">
+      <Filter>Source\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MemTracker\ProjectSettings.h">
+      <Filter>Source\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GraphicObject_Texture.h">
+      <Filter>Source\GraphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShaderTexture.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GraphicObject_ColorLight.h">
+      <Filter>Source\GraphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ShaderTextureLight.h">
+      <Filter>Source\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GraphicObject_TextureLight.h">
+      <Filter>Source\GraphicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MeshSeparator.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AzulFileHdr.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Skybox.h">
+      <Filter>Source\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Terrain.h">
+      <Filter>Source\GraphicObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\DXTex\lib\DirectXTex.lib">
+      <Filter>_Libs\DXTex\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Assets\Shaders\SimpleColor.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\Shaders\SimpleColorPlus.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\Shaders\ColorSelected.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\Shaders\SimpleColor3D.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\Shaders\ColorSelected3D.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\Shaders\Texture.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\Shaders\ColorLight.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Assets\Shaders\TextureLight.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DXApplication.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GraphicObject.cd">
+      <Filter>Diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>

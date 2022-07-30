@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="GraphicObject_Base">
+    <Position X="4.25" Y="0.75" Width="2.25" />
+    <Members>
+      <Method Name="~GraphicObject_Base" Hidden="true" />
+      <Method Name="GraphicObject_Base" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAgAAAAAAAAAAAAIAAAAAAQAABAgAAAAAAA=</HashCode>
+      <FileName>C:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\21 Graphic Object\src\GraphicObject_Base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicObject_Color">
+    <Position X="2.75" Y="3.25" Width="2.5" />
+    <Members>
+      <Method Name="~GraphicObject_Color" Hidden="true" />
+      <Method Name="GraphicObject_Color" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="GraphicObject_Base" FixedToPoint="true">
+      <Path>
+        <Point X="5.375" Y="2.627" />
+        <Point X="5.375" Y="2.95" />
+        <Point X="4.125" Y="2.95" />
+        <Point X="4.125" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABABAAAAEAAAAAAAAAAAAAAAAAARggkAAAAAA=</HashCode>
+      <FileName>C:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\21 Graphic Object\src\GraphicObject_Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GraphicObject_Texture">
+    <Position X="5.5" Y="3.25" Width="2.5" />
+    <Members>
+      <Method Name="~GraphicObject_Texture" Hidden="true" />
+      <Method Name="GraphicObject_Texture" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAABAAAAAAAAAACAAAAAAA1AgEAAAAAA=</HashCode>
+      <FileName>C:\Users\aberthia\Documents\Perforce\aberthiaume_ABERTHIAWS2014_7118\berthiaume2017winter_gam398\instructor\Week8-Lecture\21 Graphic Object\src\GraphicObject_Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
